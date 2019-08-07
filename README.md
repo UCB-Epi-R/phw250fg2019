@@ -1,2 +1,2 @@
-# phw250fg2019
-R materials for PHW250F and PHW250G in Fall 2019
+# Public Health 250F/G Fall 2019 Materials
+This repo contains the publicly available materials that are used inR materials for PHW250F and PHW250G in Fall 2019.
