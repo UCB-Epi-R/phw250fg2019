@@ -27,7 +27,6 @@ library(dplyr)
 
 AutograderSetUp = function(num_questions) {
   scores <<- vector(mode="character", length=num_questions)  
-  num_questions = 4
   for (problemNumber in 1:num_questions){
     scores[problemNumber] <<- 0
   }
@@ -85,12 +84,19 @@ CheckPoint = function(checkpoint_number, test, correct_message = "", error_messa
     error = paste0(error, ": ", error_message)
   }
   
-  if (test) {
-    tests_failed <<- tests_failed - 1
-    print(correct)
-  } else {
+  tryCatch({
+    if (test) {
+      tests_failed <<- tests_failed - 1
+      print(correct)
+    } else {
+      print(error)
+    }
+  }, error = function(e) {
     print(error)
   }
+  )
+  
+
 }
 
 #--------------------------------------------------------------------------------------
