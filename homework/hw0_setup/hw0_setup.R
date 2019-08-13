@@ -53,8 +53,4 @@ MyTotalScore()
 # --------------------------------------------
 
 # Congratulations! You just finished your first R assignment.
-# Follow these instructions to submit your work.
-
-#################################################
-# INSERT SUBMISSION INSTRUCTIONS
-#################################################
+# Follow instructions posted on bCourses to submit.
