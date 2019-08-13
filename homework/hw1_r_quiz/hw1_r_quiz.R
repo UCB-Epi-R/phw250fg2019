@@ -18,8 +18,8 @@
 # is (a), replace q_1 = "<<<<<<<<<<<<< YOUR CODE HERE >>>>>>>>>>>>>>>"
 # with q_1 = "a"
 ######################################################
-
-source('setup/autograder-setup/hw1_r_quiz/hw1_r_quiz.ok.R')
+tryCatch({source('setup/autograder-setup/hw1_r_quiz/hw1_r_quiz.ok.R')},
+         warning = function(e){print("Error: did you remember to load the phw250fg2019.Rproj file?")})
 AutograderInit()
 
 ######################################################

@@ -19,7 +19,9 @@
 # Load okR autograder - you'll see these two lines of code at the 
 # top of each assignment. It sets up the checkpoints for you to use
 # throughout the rest of the assignment.
-source('setup/autograder-setup/hw0_setup/hw0_setup.ok.R')
+
+tryCatch({source('setup/autograder-setup/hw0_setup/hw0_setup.ok.R')},
+         warning = function(e){print("Error: did you remember to load the phw250fg2019.Rproj file?")})
 AutograderInit()
 
 #-----------------------------------------------
@@ -40,17 +42,13 @@ CheckProblem1()
 # through the autograder. Try running all the cells below
 # in order.
 
-x = "five" 
+x = "5" 
 CheckProblem1()
 
 
 x = 2 + 2
 CheckProblem1()
 
-# --------------------------------------------
-# Check your total score
-MyTotalScore()
-# --------------------------------------------
 
 # Congratulations! You just finished your first R assignment.
 # Follow these instructions to submit your work.
