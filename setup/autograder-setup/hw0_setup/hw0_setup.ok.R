@@ -29,5 +29,5 @@ CheckProblem1 = function() {
              error_message = "x does not equal 5. Check your calculation!")
   
   ReturnScore(problemNumber, num_tests, tests_failed)
-  scores[problemNumber] <<- 1
+  if(tests_failed == 0){scores[problemNumber] <<- 1}
 }

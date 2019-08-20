@@ -24,7 +24,7 @@ CheckProblem1 = function() {
   
   print("Correct!")
   ReturnScore(problemNumber, num_tests, tests_failed)
-  scores[problemNumber] <<- 1
+  if(tests_failed == 0){if(tests_failed == 0){scores[problemNumber] <<- 1}}
 }
 
 CheckProblem2 = function() {
@@ -39,7 +39,7 @@ CheckProblem2 = function() {
   
   print("Correct!")
   ReturnScore(problemNumber, num_tests, tests_failed)
-  scores[problemNumber] <<- 1
+  if(tests_failed == 0){scores[problemNumber] <<- 1}
 }
 
 CheckProblem3 = function() {
@@ -54,7 +54,7 @@ CheckProblem3 = function() {
   
   print("Correct!")
   ReturnScore(problemNumber, num_tests, tests_failed)
-  scores[problemNumber] <<- 1
+  if(tests_failed == 0){scores[problemNumber] <<- 1}
 }
 
 CheckProblem4 = function() {
@@ -72,7 +72,7 @@ CheckProblem4 = function() {
   
   print("Correct!")
   ReturnScore(problemNumber, num_tests, tests_failed)
-  scores[problemNumber] <<- 1
+  if(tests_failed == 0){scores[problemNumber] <<- 1}
 }
 
 CheckProblem5 = function() {
@@ -89,7 +89,7 @@ CheckProblem5 = function() {
 
   print("Correct!")
   ReturnScore(problemNumber, num_tests, tests_failed)
-  scores[problemNumber] <<- 1
+  if(tests_failed == 0){scores[problemNumber] <<- 1}
 }
 
 CheckProblem6 = function() {
@@ -105,7 +105,7 @@ CheckProblem6 = function() {
   
   print("Correct!")
   ReturnScore(problemNumber, num_tests, tests_failed)
-  scores[problemNumber] <<- 1
+  if(tests_failed == 0){scores[problemNumber] <<- 1}
 }
 
 CheckProblem7 = function() {
@@ -122,7 +122,7 @@ CheckProblem7 = function() {
   
   print("Correct!")
   ReturnScore(problemNumber, num_tests, tests_failed)
-  scores[problemNumber] <<- 1
+  if(tests_failed == 0){scores[problemNumber] <<- 1}
 }
 
 CheckProblem8 = function() {
@@ -137,7 +137,7 @@ CheckProblem8 = function() {
   
   print("Correct!")
   ReturnScore(problemNumber, num_tests, tests_failed)
-  scores[problemNumber] <<- 1
+  if(tests_failed == 0){scores[problemNumber] <<- 1}
 }
 
 CheckProblem9 = function() {
@@ -153,7 +153,7 @@ CheckProblem9 = function() {
   
   print("Correct!")
   ReturnScore(problemNumber, num_tests, tests_failed)
-  scores[problemNumber] <<- 1
+  if(tests_failed == 0){scores[problemNumber] <<- 1}
 }
 
 CheckProblem10 = function() {
@@ -170,7 +170,7 @@ CheckProblem10 = function() {
   
   print("Correct!")
   ReturnScore(problemNumber, num_tests, tests_failed)
-  scores[problemNumber] <<- 1
+  if(tests_failed == 0){scores[problemNumber] <<- 1}
 }
 
 

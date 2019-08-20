@@ -118,6 +118,7 @@ ReturnScore = function(problemNumber, num_tests, num_failed) {
   
   cat(sprintf("\nProblem %d\nCheckpoints Passed: %d\nCheckpoints Errored: %d\n%g%% passed | Score: %d/1\n", 
               problemNumber, num_passed, num_failed, round(num_passed/num_tests * 100, digits = 2), score))
+  return(score)
 }
 
 #--------------------------------------------------------------------------------------
