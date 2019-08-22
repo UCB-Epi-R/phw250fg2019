@@ -134,7 +134,7 @@ student_info = readRDS(paste0(here::here(), "/data/r_quiz/student_info.RDS"))
 
 ######################################################
 # *Question 9*
-# Assign `q_6` to a data table containing rows from 
+# Assign `q_9` to a data table containing rows from 
 # `student_info` for students who are Public Health majors.
 ######################################################
 
