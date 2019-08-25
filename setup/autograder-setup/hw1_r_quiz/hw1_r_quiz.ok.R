@@ -1,7 +1,7 @@
 #################################################
 # R-for-Epi
 # Epidemiologic Methods II (PHW250F, PHW250G)
-# created by Jade Benjamin-Chung
+# created by Jade Benjamin-Chung, Nolan Pokpongkiat, Anna Nguyen
 
 # Autograder: R-Quiz
 ###############################################

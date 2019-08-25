@@ -18,9 +18,10 @@
 # is (a), replace q_1 = "<<<<<<<<<<<<< YOUR CODE HERE >>>>>>>>>>>>>>>"
 # with q_1 = "a"
 ######################################################
+# Don't change these lines, just run them!
+# Load okR autograder
 tryCatch({source('setup/autograder-setup/hw1_r_quiz/hw1_r_quiz.ok.R')},
          warning = function(e){print("Error: did you remember to load the phw250fg2019.Rproj file?")})
-AutograderInit()
 
 ######################################################
 # *Question 1*
@@ -85,7 +86,7 @@ CheckProblem5()
 # to q_6.
 ######################################################
 
-df = readRDS(paste0(here::here(),"/data/r_quiz/df.RDS"))
+df = readRDS("df.RDS")
 q_6 = "<<<<<<<<<<<<< YOUR CODE HERE >>>>>>>>>>>>>>>"
 CheckProblem6()
 
@@ -100,7 +101,7 @@ CheckProblem6()
 # the remaining items for each `item_name`.
 ######################################################
 
-q_7 = readRDS(paste0(here::here(),"/data/r_quiz/q_7.RDS"))
+q_7 = readRDS("q_7.RDS")
 q_7 = "<<<<<<<<<<<<< YOUR CODE HERE >>>>>>>>>>>>>>>" 
 CheckProblem7()
 
@@ -130,11 +131,11 @@ CheckProblem8()
 #  - `gpa`: integers with student GPAs
 ######################################################
 
-student_info = readRDS(paste0(here::here(), "/data/r_quiz/student_info.RDS"))
+student_info = readRDS("student_info.RDS")
 
 ######################################################
 # *Question 9*
-# Assign `q_9` to a data table containing rows from 
+# Assign `q_6` to a data table containing rows from 
 # `student_info` for students who are Public Health majors.
 ######################################################
 
@@ -154,4 +155,15 @@ CheckProblem10()
 # Check your total score
 MyTotalScore()
 # --------------------------------------------
+
+# Follow the instructions on bCourses to submit your work.
+
+######################################
+# ALTERNATE SUBMISSION INSTRUCTIONS
+# 1. Click on the "Terminal" tab in the panel below
+# 2. Copy and paste the following line of code and press "enter":
+cd; cd phw250fg2019/homework/hw1_r_quiz; python3 ok --submit;
+# 3. Follow the prompts in the terminal
+# Video tutorial: https://www.youtube.com/watch?v=NYNDi_zJRGE
+######################################
 
