@@ -3,7 +3,7 @@
 # Epidemiologic Methods II (PHW250F, PHW250G)
 # created by Jade Benjamin-Chung
 
-# Homework 1, R Setup
+# Homework 0, R Setup
 #################################################
 
 # In this course, you'll be completing weekly R assignments that 
@@ -20,6 +20,8 @@
 # top of each assignment. It sets up the checkpoints for you to use
 # throughout the rest of the assignment.
 
+# Don't change these lines, just run them!
+# Load okR autograder
 tryCatch({source('setup/autograder-setup/hw0_setup/hw0_setup.ok.R')},
          warning = function(e){print("Error: did you remember to load the phw250fg2019.Rproj file?")})
 AutograderInit()
@@ -51,4 +53,14 @@ CheckProblem1()
 
 
 # Congratulations! You just finished your first R assignment.
-# Follow instructions posted on bCourses to submit.
+# Follow the instructions on bCourses to submit your work.
+
+######################################
+# ALTERNATE SUBMISSION INSTRUCTIONS
+# 1. Click on the "Terminal" tab in the panel below
+# 2. Copy and paste the following line of code and press "enter":
+cd; cd phw250fg2019/homework/hw0_setup; python3 ok --submit;
+# 3. Follow the prompts in the terminal
+# Video tutorial: https://www.youtube.com/watch?v=NYNDi_zJRGE
+######################################
+
