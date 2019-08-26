@@ -22,6 +22,7 @@
 # Load okR autograder
 tryCatch({source('setup/autograder-setup/hw1_r_quiz/hw1_r_quiz.ok.R')},
          warning = function(e){print("Error: did you remember to load the phw250fg2019.Rproj file?")})
+AutograderInit()
 
 ######################################################
 # *Question 1*
@@ -135,7 +136,7 @@ student_info = readRDS("student_info.RDS")
 
 ######################################################
 # *Question 9*
-# Assign `q_6` to a data table containing rows from 
+# Assign `q_9` to a data table containing rows from 
 # `student_info` for students who are Public Health majors.
 ######################################################
 
