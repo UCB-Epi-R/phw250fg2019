@@ -87,7 +87,7 @@ CheckProblem5()
 # to q_6.
 ######################################################
 
-df = readRDS("df.RDS")
+df = readRDS(paste0(here::here(),"/data/r_quiz/df.RDS"))
 q_6 = "<<<<<<<<<<<<< YOUR CODE HERE >>>>>>>>>>>>>>>"
 CheckProblem6()
 
@@ -102,7 +102,7 @@ CheckProblem6()
 # the remaining items for each `item_name`.
 ######################################################
 
-q_7 = readRDS("q_7.RDS")
+q_7 = readRDS(paste0(here::here(),"/data/r_quiz/q_7.RDS"))
 q_7 = "<<<<<<<<<<<<< YOUR CODE HERE >>>>>>>>>>>>>>>" 
 CheckProblem7()
 
@@ -132,11 +132,11 @@ CheckProblem8()
 #  - `gpa`: integers with student GPAs
 ######################################################
 
-student_info = readRDS("student_info.RDS")
+student_info = readRDS(paste0(here::here(), "/data/r_quiz/student_info.RDS"))
 
 ######################################################
 # *Question 9*
-# Assign `q_9` to a data table containing rows from 
+# Assign `q_6` to a data table containing rows from 
 # `student_info` for students who are Public Health majors.
 ######################################################
 
