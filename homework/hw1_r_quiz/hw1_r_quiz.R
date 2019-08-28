@@ -127,16 +127,13 @@ CheckProblem8()
 #  - `major`: strings of student majors. Assume that 
 # students only have one major
 #  - `age`: integers with student ages
-#  - `terms`: integers with the number of semesters 
-# students have been in attendance
-#  - `gpa`: integers with student GPAs
 ######################################################
 
 student_info = readRDS(paste0(here::here(), "/data/r_quiz/student_info.RDS"))
 
 ######################################################
 # *Question 9*
-# Assign `q_6` to a data table containing rows from 
+# Assign `q_9` to a data table containing rows from 
 # `student_info` for students who are Public Health majors.
 ######################################################
 
@@ -163,7 +160,7 @@ MyTotalScore()
 # ALTERNATE SUBMISSION INSTRUCTIONS
 # 1. Click on the "Terminal" tab in the panel below
 # 2. Copy and paste the following line of code and press "enter":
-cd; cd phw250fg2019/homework/hw1_r_quiz; python3 ok --submit;
+# cd; cd phw250fg2019/homework/hw1_r_quiz; python3 ok --submit;
 # 3. Follow the prompts in the terminal
 # Video tutorial: https://www.youtube.com/watch?v=NYNDi_zJRGE
 ######################################
