@@ -9,6 +9,7 @@
 #########################################################################
 
 # Load dependencies
+# Load dependencies
 suppressWarnings(library(here))
 suppressWarnings(library(jsonlite))
 suppressWarnings(library(rlist))
@@ -25,7 +26,6 @@ suppressWarnings(library(dplyr))
 
 AutograderSetUp = function(num_questions) {
   scores <<- vector(mode="character", length=num_questions)  
-  num_questions = 4
   for (problemNumber in 1:num_questions){
     scores[problemNumber] <<- 0
   }
@@ -83,12 +83,19 @@ CheckPoint = function(checkpoint_number, test, correct_message = "", error_messa
     error = paste0(error, ": ", error_message)
   }
   
-  if (test) {
-    tests_failed <<- tests_failed - 1
-    print(correct)
-  } else {
+  tryCatch({
+    if (test) {
+      tests_failed <<- tests_failed - 1
+      print(correct)
+    } else {
+      print(error)
+    }
+  }, error = function(e) {
     print(error)
   }
+  )
+  
+
 }
 
 #--------------------------------------------------------------------------------------
@@ -110,6 +117,7 @@ ReturnScore = function(problemNumber, num_tests, num_failed) {
   
   cat(sprintf("\nProblem %d\nCheckpoints Passed: %d\nCheckpoints Errored: %d\n%g%% passed | Score: %d/1\n", 
               problemNumber, num_passed, num_failed, round(num_passed/num_tests * 100, digits = 2), score))
+  return(score)
 }
 
 #--------------------------------------------------------------------------------------
