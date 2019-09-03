@@ -163,7 +163,7 @@ CheckProblem6()
 # Save the name of the treatment arm using the
 # same spelling as in the treatment label in 
 # prevalence_tr to indicate your answer in an
-# object called p6. (e.g., p7 = "Control")
+# object called p7. (e.g., p7 = "Control")
 #-----------------------------------------------
 p7 = "<<<<<<<<<<<<< YOUR CODE HERE >>>>>>>>>>>>>>>"
 
