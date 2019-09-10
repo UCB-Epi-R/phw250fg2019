@@ -80,9 +80,8 @@ CheckProblem4()
 dm
 
 #-----------------------------------------------
-# Problem 5: calculate person-time using a formula that 
-# assumes withdrawals occur halfway through each
-# interval. Withdrawals are indicated in the column "W".
+# Problem 5: calculate person-time. Add a new
+# column named PT.
 #-----------------------------------------------
 delta_t=2
 dm = "<<<<<<<<<<<<< YOUR CODE HERE >>>>>>>>>>>>>>>"
@@ -92,7 +91,8 @@ CheckProblem5()
 
 #-----------------------------------------------
 # Problem 6: calculate the conditional risk as a new 
-# column in the dm dataframe
+# column in the dm dataframe. Add a new column
+# named ID.
 #-----------------------------------------------
 dm = "<<<<<<<<<<<<< YOUR CODE HERE >>>>>>>>>>>>>>>"
 
@@ -128,8 +128,9 @@ MyTotalScore()
 ######################################
 # ALTERNATE SUBMISSION INSTRUCTIONS
 # 1. Click on the "Terminal" tab in the panel below
-# 2. Copy and paste the following line of code and press "enter":
-cd; cd phw250fg2019/homework/hw3_inc; python3 ok --submit;
+# 2. Copy and paste the following line of code without the #
+# and press "enter":
+# cd; cd phw250fg2019/homework/hw3_inc; python3 ok --submit;
 # 3. Follow the prompts in the terminal
 # Video tutorial: https://www.youtube.com/watch?v=NYNDi_zJRGE
 ######################################
