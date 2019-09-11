@@ -1,8 +1,8 @@
 {
-  "name": "Homework 0: Setup",
+  "name": "Homework 3: Incidence",
   "endpoint": "cal/phw250f/fa19/hw3_inc",
   "src": [
-    "hw3_inc.R"
+    "hw3_inc_v2.R"
     ],
   "tests": {
       "tests/q*.py": "ok_test"

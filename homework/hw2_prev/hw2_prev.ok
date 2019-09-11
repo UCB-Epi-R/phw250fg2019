@@ -1,5 +1,5 @@
 {
-  "name": "Homework 0: Setup",
+  "name": "Homework 2: Prevalence",
   "endpoint": "cal/phw250f/fa19/hw2_prev",
   "src": [
     "hw2_prev.R"

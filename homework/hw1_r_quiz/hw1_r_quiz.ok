@@ -1,5 +1,5 @@
 {
-  "name": "Homework 0: Setup",
+  "name": "Homework 1: R Quiz",
   "endpoint": "cal/phw250f/fa19/hw1_r_quiz",
   "src": [
     "hw1_r_quiz.R"
