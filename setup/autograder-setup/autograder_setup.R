@@ -14,6 +14,7 @@ suppressWarnings(library(here))
 suppressWarnings(library(jsonlite))
 suppressWarnings(library(rlist))
 suppressWarnings(library(dplyr))
+suppressWarnings(library(assertthat))
 
 #--------------------------------------------------------------------------------------
 # AutograderSetUp
@@ -95,7 +96,7 @@ CheckPoint = function(checkpoint_number, test, correct_message = "", error_messa
   }
   )
   
-
+  
 }
 
 #--------------------------------------------------------------------------------------
