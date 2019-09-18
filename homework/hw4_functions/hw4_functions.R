@@ -102,7 +102,7 @@ estimate_or = "<<<<<<<<<<<<< YOUR CODE HERE >>>>>>>>>>>>>>>"
 CheckProblem5()
 
 #------------------------------------
-# Problem 6: Apply the function estimate_rr_ci to the values
+# Problem 6: Apply the function estimate_or to the values
 # a, b, c, and d defined above. Save the
 # results in an object called p4. 
 #------------------------------------
@@ -147,7 +147,7 @@ CheckProblem8()
 
 # Write a function that uses 2x2 table cells
 # as arguments and returns the PAR.
-# Call the function par.fn
+# Call the function estimate_par
 #------------------------------------
 estimate_par = "<<<<<<<<<<<<< YOUR CODE HERE >>>>>>>>>>>>>>>"
 
