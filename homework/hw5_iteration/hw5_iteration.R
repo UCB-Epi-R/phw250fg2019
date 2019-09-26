@@ -126,8 +126,8 @@ CheckProblem3()
 # incidence density in each treatment arm. 
 control_inc = prevalence_tr %>% 
   filter(tr=="Control") %>%
-  select(incidence)
-control_inc = as.vector(control_inc$incidence)
+  select(incidence_density)
+control_inc = as.vector(control_inc$incidence_density)
 
 # calculate the incidence difference in each arm 
 prevalence_tr = "<<<<<<<<<<<<< YOUR CODE HERE >>>>>>>>>>>>>>>"
