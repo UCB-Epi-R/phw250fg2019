@@ -1,0 +1,14 @@
+{
+  "name": "Homework 6: Data Visualization",
+  "endpoint": "cal/phw250f/fa19/hw6_datavis",
+  "src": [
+    "hw6_datavis.R"
+    ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+    "file_contents",
+    "backup"
+    ]
+}
