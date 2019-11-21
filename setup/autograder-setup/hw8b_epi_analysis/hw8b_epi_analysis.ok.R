@@ -196,7 +196,7 @@ CheckProblem7 = function() {
   num_tests <<- 4
   tests_failed <<- num_tests 
   
-  all = readRDS("setup/autograder-setup/hw8b_epi_analysis/all_correct.RDS")
+  all = readRDS("~/phw250fg2019/setup/autograder-setup/hw8b_epi_analysis/all_correct.RDS")
   
   CheckPoint(checkpoint_number = 1,
              test = ("implatrine" %in% colnames(all)), 
