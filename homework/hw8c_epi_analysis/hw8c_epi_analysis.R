@@ -227,8 +227,8 @@ laz_adj_moa_ci
 CheckProblem11()
 
 #-----------------------------------------------
-# Problem 11b: Interpret this unadjusted measure of 
-# association, assessing the magnitude of the unadjusted
+# Problem 11b: Interpret this adjusted measure of 
+# association, assessing the magnitude of the adjusted
 # measure of association as well as the 95% CI for it. 
 # Comment on how the adjusted measure compares
 # to the unadjusted measure you obtained in 
