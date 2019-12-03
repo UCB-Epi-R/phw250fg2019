@@ -1,0 +1,73 @@
+---
+title: "Observational analysis of height-for-age Z-score and improved latrine ownership"
+author: "Jade Benjamin-Chung"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE)
+
+source(paste0(getwd(), "/homework/hw9_workflow/hw8b_epi_analysis_solutions.R"))
+source(paste0(getwd(), "/homework/hw9_workflow/hw8c_epi_analysis_solutions.R"))
+
+```
+
+### Background
+The WASH Benefits Bangladesh trial tested the hypothesis that improvements to household sanitation could reduce linear growth faltering in the first two years of life (Luby et al., 2018). 
+
+### Hypothesis
+Children whose household has an improved latrine have higher length-for-age Z-scores than those in households without improved latrines.
+
+### Methods
+
+- Data source
+- Study design
+- Time points / sub population examined
+- Exposure definition
+- Outcome definition
+- Statistical methods
+
+### Results
+
+#### Figure 1. Histogram of height-for-age z-score 
+
+Description of histogram to be added
+
+```{r histogram, echo=FALSE, out.width=400}
+# laz_histogram
+```
+
+#### Box plot of height-for-age z-score by household ownership of an improved latrine
+
+Description of boxplot to be added
+
+```{r boxplot, echo=FALSE, out.width=400}
+# laz_lat_boxplot
+```
+
+
+#### Table 1. Mean difference and risk ratio 
+
+Description of results to be added
+
+```{r results, echo = FALSE}
+# table = data.frame(Outcome = c(rep("Length-for-age z-score",2), "Stunting"), 
+#   Measure = c(rep("Mean difference", 2), "Risk ratio"),
+#   Model = c("Unadjusted", "Adjusted", "Unadjusted"),
+#   Estimate= c(laz_unadj_moa, laz_adj_moa, 
+#                           stunt_unadj_moa))
+# print(table)
+# kable(table, format = "markdown")
+
+```
+
+### Conclusions
+Comparison of results from the main WASH Benefits study and this analysis to be added
+
+### References
+Luby S et al. Effects of water quality, sanitation, handwashing and nutritional interventions on diarrhoea and child growth in rural Bangladesh: A cluster randomized trial. *Lancet Global Health*. 2018;6(3):e302–15. 
+
+
+
