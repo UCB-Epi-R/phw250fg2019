@@ -1,6 +1,6 @@
 {
   "name": "Homework 8c: Epi Analysis",
-  "endpoint": "cal/phw250f/fa19/hw8c_epi_analysis",
+  "endpoint": "cal/phw250g/fa19/hw8c_epi_analysis",
   "src": [
     "hw8c_epi_analysis.R"
     ],
