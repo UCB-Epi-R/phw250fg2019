@@ -1,0 +1,153 @@
+---
+title: "Observational analysis of height-for-age Z-score and improved latrine ownership"
+author: "[Add your name here]"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+library(knitr)
+library(dplyr)
+library(ggplot2)
+knitr::opts_chunk$set(echo = TRUE)
+
+# Instructions: under each comment below, add the code from 250G homework
+# assignments 2 and 3. Before copying it below, check that your previous code 
+# correct by comparing it to the solutions. 
+
+# Load the treatment, enrollment, and anthropometry datasets 
+
+# Merge together the treatment and enroll data frames
+
+# Merge together the enroll_tr and anthro data frames
+
+# Subset the data frame all to only the control arm
+
+# Subset the data frame all to only
+# observations collected at the 2 year measurement
+# time point (endline)
+
+# Make a variable called “implatrine” 
+# in the all data frame that is a factor variable
+# equal to "Has improved latrine" if the household owns 
+# a latrine with a functional water seal and equal
+# to "Does not have improved latrine" if they do not. 
+
+# Subset the data frame all by removing
+# any rows for people who had missing laz or missing
+# implatrine
+
+
+```
+
+
+### Background
+The WASH Benefits Bangladesh trial tested the hypothesis that improvements to household sanitation could reduce linear growth faltering in the first two years of life (Luby et al., 2018). 
+
+### Hypothesis
+Children whose household has an improved latrine have higher length-for-age Z-scores than those in households without improved latrines.
+
+### Methods
+
+#### Data source
+*Instructions: Fill in 1-3 sentences, then delete these instructions.*
+
+#### Study design
+*Instructions: Fill in 1-3 sentences, then delete these instructions.*
+
+#### Time points / sub population examined
+*Instructions: Fill in 1-3 sentences, then delete these instructions.*
+
+#### Exposure definition
+*Instructions: Fill in 1-3 sentences, then delete these instructions.*
+
+#### Outcome definition
+*Instructions: Fill in 1-3 sentences, then delete these instructions.*
+
+#### Statistical methods
+*Instructions: Fill in 1-3 sentences, then delete these instructions.*
+
+### Results
+
+#### Figure 1. Histogram of height-for-age z-score 
+
+*Instructions: add a description of the histogram, then delete these instructions.*
+
+```{r histogram, echo=FALSE, out.width=400}
+# Instructions: Create a histogram showing the 
+# distribution of the length-for-age
+# Z-score. Label the x-axis "Length-for-age Z-score".
+# Name the plot object "laz_histogram". 
+# Make the bars have a gray fill and a black outline. 
+# Display the histogram. 
+```
+
+#### Box plot of height-for-age z-score by household ownership of an improved latrine
+
+*Instructions: add a description of the boxplot, then delete these instructions.*
+
+```{r boxplot, echo=FALSE, out.width=400}
+# Instructions: Create a box plot for the length-for-age 
+# Z-score within categories of implatrine. Label
+# the x-axis "Type of latrine" and the y-axis 
+# "Length-for-age Z-score". Name the plot object
+# "laz_lat_boxplot". 
+# Display the boxplot. 
+
+```
+
+
+#### Table 1. Mean difference and risk ratio 
+
+*Instructions: add a description of the results of your analyses, including interpretations of the mean difference and the risk ratio, then delete these instructions.*
+
+```{r models, echo = FALSE}
+# Instructions: Add the code as described below. 
+# There is no output from this R chunk. 
+
+# Fit a model to estimate the *unadjusted*
+# measure of association for length-for-age Z-score  
+# and improved latrines. 
+
+
+# Fit a model to estimate the *adjusted*
+# measure of association for length-for-age Z-score  
+# and improved latrines. Adjust for the following
+# variables: age in days, sex, month of data collection, 
+# ownership of a refrigerator, mother's education level, 
+# mother's height. 
+
+
+# Fit a model to estimate the *unadjusted*
+# measure of association for stunting (LAZ < -2)
+# and improved latrines. 
+
+```
+
+```{r results, echo = FALSE}
+# Instructions: write new code to create a table with four columns for 
+# outcome, measure, model, and estimate. 
+# The outcome column contains values "Length-for-age z-score" 
+# and "Stunting". The measure column contains "Mean difference"
+# or "Risk ratio." The Model column contains "Unadjusted" 
+# or "Adjusted". The estimate column contains the estimates
+# you produced in analyses above. There should be three rows. 
+# Call the table object table. 
+
+# Please do not "hard code" your results. Instead use the objects 
+# you generated above when coding the table. 
+
+# Instructions: After creating the table, uncomment this line of code
+# to display the table: 
+# kable(table, format = "markdown")
+
+```
+
+### Conclusions
+*Instructions: In 3-6 sentences, compare the results from the main WASH Benefits study and this analysis, then delete these instructions.*
+
+### References
+Luby S et al. Effects of water quality, sanitation, handwashing and nutritional interventions on diarrhoea and child growth in rural Bangladesh: A cluster randomized trial. *Lancet Global Health*. 2018;6(3):e302–15. 
+
+
+
